@@ -1,0 +1,17 @@
+
+<script type="module" src="https://flowcards.mrf.io/statics/third-party-integration/index.es2015.js"></script>
+<script nomodule type="text/javascript" src="https://flowcards.mrf.io/statics/third-party-integration/index.es5.js"></script>
+<script type="text/javascript">
+window.marfeel = window.marfeel || {};
+window.marfeel.cmd = window.marfeel.cmd || [];
+window.marfeel.cmd.push(marfeel => {
+	marfeel.addBrandedContentCard({
+		url: 'https://www.recetasderechupete.com/como-hacer-las-torrijas-perfectas-consejos-y-trucos-para-unas-torrijas-de-10/36575/amp/',
+		provider: 'adManager',
+		id: 'brandedContentId', //optional
+		name: 'brandedContentFlowcard', //optional
+		relevance: 100 //optional
+		dragHandlerBg: '#ff0000', //optional
+	});
+});
+</script>
